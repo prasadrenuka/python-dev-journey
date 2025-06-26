@@ -3,7 +3,7 @@ name2 = "Renuka"
 name3 = """renuka
 prasad s""" #multiline
 age = 27 # int
-is_coding = True
+is_coding = True # boolean
 complexx = 2 + 3j # complex
 salary = 27000.67 # float
 print(name);

@@ -6,7 +6,7 @@ age = 27 # int
 is_coding = True # boolean
 complexx = 2 + 3j # complex
 salary = 27000.67 # float
-print(name);
+print(name); # end of the line is not necessary and not preferred but if you want to declare multiple in single it comes in handy
 print(name2)
 print(name3)
 print(age)

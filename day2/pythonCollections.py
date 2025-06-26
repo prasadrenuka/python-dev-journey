@@ -59,7 +59,8 @@ for key, value in personalDetails.items():
     print(key,"=", value)
 
 # unordered vs ordered??
-
+# unordered means order of entry is not maintained
+# order mean order of entry is maintained
 # set
 num={1234, 1235, 1236}
 print(num)

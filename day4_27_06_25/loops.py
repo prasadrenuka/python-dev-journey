@@ -7,10 +7,11 @@ for fruit in fruits:
 else:
     print('loop completed successfully')
 
-
+# for with range
 for number in range(10):
     print(number)
 
+# while loop
 a=0
 while a<5:
     print(a)

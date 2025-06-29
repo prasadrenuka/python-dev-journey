@@ -4,8 +4,8 @@
 #file = open('log.txt', 'r')
 # relative folder structure
 # file = open('../README.md', 'r')
-# file = open('../day6_29_06_25/log.txt', 'r') # read
-# file = open('../day6_29_06_25/log.txt', 'a') # append
+# file = open('../day_6_29_06_25/log.txt', 'r') # read
+# file = open('../day_6_29_06_25/log.txt', 'a') # append
 # print(type(file))
 # file.write('\nLearning Python file handling') # write
 # content = file.read()

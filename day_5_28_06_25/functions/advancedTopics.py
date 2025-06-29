@@ -49,12 +49,15 @@ print(checkIfEqual("apple", "grape")) # true
 
 # map() apply function to each element
 a= [1,2, 3,4] #list
-
+b = [5,6,7,8]
 print(list(map(lambda x: x**2, a)))
 def powerr(x):
     return x**2
+# map supports multiple iterables
+print(list(map(lambda y,z:y+z,a,b)))
 
 print('xxxx', list(map(powerr, a)))
+
 
 # filter() filter if it satisfies the condition
 

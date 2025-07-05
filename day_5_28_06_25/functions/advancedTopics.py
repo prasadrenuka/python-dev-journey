@@ -38,7 +38,7 @@ print_info(name='renuka', age=27, profession='coding', location='bangalore') # d
 add = lambda a,b: a+b # syntax lambda(keyword) arguments separated by comma: expression
 print(add(9,2))
 
-#Write a lambda that:
+# Write a lambda that:
 # Takes 2 strings
 # Returns True if they are the same length
 

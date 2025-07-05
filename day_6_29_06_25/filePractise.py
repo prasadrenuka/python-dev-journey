@@ -28,5 +28,5 @@ file.close()
 # each line
 with open('log.txt', 'r') as file:
     for line in file:
-        print('line:', line.strip())
+        print('line:', line.strip()) # strip() eliminates the unnecessary spaces.
 

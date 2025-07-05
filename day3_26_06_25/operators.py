@@ -1,5 +1,5 @@
 # Arithematic operators
-from day2.pythonCollections import personalDetails, coordinates
+# from day2.pythonCollections import personalDetails, coordinates
 
 a = 10
 b = 20
@@ -44,6 +44,10 @@ print(a)
 a**=b # a= a**b
 print(a)
 print(type(a))
+a//=b
+print('floor',a)
+a%=b
+print('modulus',a)
 
 # Identity Operators
 print('####Identity####')

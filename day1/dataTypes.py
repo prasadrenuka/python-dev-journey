@@ -19,3 +19,7 @@ print(type(complexx))
 print(type(is_coding))
 print(is_coding)
 
+#str
+a ='hello'
+print(a[1])
+

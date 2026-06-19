@@ -23,5 +23,12 @@ with open('profile.json', 'r') as p:
     # back = json.loads(data)
     print('skills', data["skills"])
 
+def addtwo(a, b):
+    added = a + b
+    return a
+
+x = addtwo(2, 7)
+print(x)
+
 
 

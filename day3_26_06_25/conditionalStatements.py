@@ -9,7 +9,7 @@ else:
     print('b is greater than a')
 
 # one line if else use it for simple statement
-print("a is greater than b") if a<=b else print('b is greater than a')
+print("a is less than b") if a<=b else print('b is greater than a')
 
 # match case equivalent to switch case
 # fruit = input('Enter a fruit name\n')

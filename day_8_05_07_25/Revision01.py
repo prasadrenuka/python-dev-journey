@@ -13,7 +13,7 @@
 # go"""
 ### print() out put statement
 
-# Collections : stores the collection of data
+# 3. Collections : stores the collection of data
 
 ## List, tuple, Dictionary, Set
 ## syntax example:

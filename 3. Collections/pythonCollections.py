@@ -1,6 +1,8 @@
 #List
 from os import remove
 
+from numpy import sort
+
 # #
 fruit =["apple", "banana", "mango"]
 print(fruit)
@@ -71,4 +73,7 @@ print(num)
 num.remove(1236)
 print(num)
 print(1235 in num)
-print(num[0])
+# print(num[0])
+
+a =(('b',3), ('a',6))
+print(sort(a))

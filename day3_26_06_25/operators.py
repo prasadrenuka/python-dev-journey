@@ -1,5 +1,5 @@
 # Arithematic operators
-# from day2.pythonCollections import personalDetails, coordinates
+# from 3. Collections.pythonCollections import personalDetails, coordinates
 
 a = 10
 b = 20

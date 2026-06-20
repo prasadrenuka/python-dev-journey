@@ -1,5 +1,4 @@
-# Arithematic operators
-# from 3. Collections.pythonCollections import personalDetails, coordinates
+# Arithmetic operators
 
 a = 10
 b = 20
@@ -7,13 +6,17 @@ print(a+b) # addition
 print(a-b) # subtraction
 print(a*b) #multiplication
 c =b/a # division
+
 print(a/b)
 print(c)
 print(type(c))
+
 print(a//b) # Floor division
 print(b//a)
+
 print(a%b) # Modulus operator
 print(b%a)
+
 print(a**2) #power
 
 # comparison operators

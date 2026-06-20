@@ -1,6 +1,6 @@
-# list [] ordered, mutable, duplicates are allowed, .append and .remove, only same type we can add or remove
+# list [] ordered, mutable, duplicates are allowed, .append and .remove, any type we can add or remove
 # tuple () ordered, non-mutable, duplicates are allowed, n/a, n/a
-# dictionary{"key":value} unordered, key-value pair, mutable,  should have unique key, modify using key, any type of value can be assigned to key
+# dictionary{"key":value} ordered(3.7+), key-value pair, mutable,  should have unique key, modify using key, any type of value can be assigned to key
 # set {} unordered, mutable, duplicates are not allowed, .add and .remove, only same type we can add or remove
 duplicates = (10, 10, 50)
 print(duplicates[2])
@@ -22,8 +22,9 @@ set_now.add(90)
 print(set_now)
 
 my_list =[2,3,4]
+my_list.append('renuka')
 print(my_list)
-# my_list.append('renuka') we can't add other types in list too
+
 ## convert to list
 converted_set=list(set_now)
 print(converted_set)

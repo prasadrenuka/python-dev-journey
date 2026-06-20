@@ -2,7 +2,7 @@
 fruits =['banana', 'mango', 'pineapple']
 for fruit in fruits:
     if fruit == 'mango':
-        break
+        continue
     print(fruit)
 else:
     print('loop completed successfully')

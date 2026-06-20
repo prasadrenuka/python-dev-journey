@@ -8,7 +8,7 @@ elif a==b:
 else:
     print('b is greater than a')
 
-# one line if else use it for simple statement
+# one line if else use it for simple statement ( a if condition else b)
 print("a is less than b") if a<=b else print('b is greater than a')
 
 # match case equivalent to switch case
@@ -25,9 +25,11 @@ match fruit:
         print('it\'s not fruit')
 
 
-# assert
-assert a>0, 'a value should be greater than 0'
+# assert (not a conditonal statement, It is mainly used for debugging and catching programming mistakes early.)
+d=-5
+assert d>0, 'a value should be greater than 0'
 
+#Note:
 c=()
 # "",0,None and empty list[] etch as falsy
 if c:

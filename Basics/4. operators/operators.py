@@ -77,7 +77,7 @@ coordinates = (10,220)
 print('###in###')
 print("banana" in fruits)
 print("age" in personalDetails) # in dic 'in' checks only for keys not value
-print('P' in name) # 'in' case sentive in string
+print('P' in name) # 'in' case-sensitive in string
 print("benz" in noDuplicate)
 print('###not in###')
 print("banana" not in fruits)
